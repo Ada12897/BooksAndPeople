@@ -21,7 +21,7 @@ const DEFAULT_COVER =
 
 mongoose
   .connect(
-    'mongodb+srv://monopolyfifa1234:SWvgYadiIu7F63pM@bookpeople.zznmy2i.mongodb.net/bookpeople?retryWrites=true&w=majority&appName=bookpeople'
+    'mongodb+srv://:@bookpeople.zznmy2i.mongodb.net/bookpeople?retryWrites=true&w=majority&appName=bookpeople'
   )
   .then(() => console.log('MongoDB подключена'))
   .catch((err) => console.log('Ошибка MongoDB:', err));
