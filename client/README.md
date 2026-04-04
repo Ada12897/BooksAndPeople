@@ -74,6 +74,7 @@ bookspeople/
 │       │   ├── Login.js
 │       │   ├── Profile.js
 │       │   └── NotFound.js
+│       │   └── Admin.js
 │       ├── App.js
 │       ├── App.css
 │       └── index.js
